@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GARAMENDI</title>
+</head>
+<body>
+    <h1>Lista de tareas</h1>
+    <ul>
+        {% for tarea in tareas %}
+            <li>{{ tarea.titulo }} - {{ tarea.descripcion }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

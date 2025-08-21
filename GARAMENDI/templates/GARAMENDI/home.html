@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GARAMENDI</title>
+</head>
+<body>
+    <h1>Bienvenido a la app GARAMENDI 🚀</h1>
+
+    <h2>Lista de tareas</h2>
+    <ul>
+        {% for tarea in tareas %}
+            <li>{{ tarea.titulo }} - {{ tarea.descripcion }}</li>
+        {% empty %}
+            <li>No hay tareas registradas.</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
