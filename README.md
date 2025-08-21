@@ -116,3 +116,9 @@ Email: samir.alfonso@tecsup.edu.pe
 GitHub: Hazielcode
 
 ✨ ¡Gracias por usar y probar HazielRango! 🚀
+EOF
+
+Agregar, commit y push
+git add README.md
+git commit -m "Reemplazar README con versión completa"
+git push
